@@ -5,6 +5,13 @@ public class Main {
         System.out.println("test branch v2.0");
 
         ArrayList<TestClass.Food> foods = new ArrayList<>();
+        ArrayList<TestClass.Gem> gems = new ArrayList<>();
+
+        gems.add(TestClass.Gem.Sapphire);
+        gems.add(TestClass.Gem.Emerald);
+        gems.add(TestClass.Gem.Diamond);
+
+        gems.forEach(c -> System.out.println(c));
 
         foods.add(TestClass.Food.Frikandel);
         foods.add(TestClass.Food.Bitterbal);
