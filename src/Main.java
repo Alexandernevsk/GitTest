@@ -11,4 +11,6 @@ public class Main {
             System.out.println(food);
         }
     }
+
+    Shop item = new Shop(Double.parseDouble("5.67"), "Ijsje", "lekker voor de zomer");
 }
