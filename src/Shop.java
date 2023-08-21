@@ -8,4 +8,14 @@ public class Shop {
         this.name = name;
         this.description = description;
     }
+
+    public double getPrice() {
+        return price;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getDescription() {
+        return description;
+    }
 }
