@@ -10,6 +10,5 @@ public class Main {
         for(TestClass.Food food : foods){
             System.out.println(food);
         }
-
     }
 }
